@@ -1,0 +1,241 @@
+
+.le-header  {
+    background-color: #006699;
+    line-height: 45px;
+}
+
+.le-header h1 {
+    font-size: 17px;
+    color:#fff;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+}
+
+.le-header  a {
+    color:#fff;
+    display: block;
+    line-height: 45px;
+    padding:0 10px;
+    font-size: 18px;
+}
+
+
+.mui-content  {
+  height:100%;
+}
+
+.mui-slider {
+    margin-top: 44px;
+  }
+  
+  .mui-slider-indicator {
+    z-index: 10;
+  }
+
+
+/* 九宫格 */
+.grid-nine {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .grid-nine ul {
+    width: 100%;
+    font-size: 0;
+  }
+  /* 移动端能用display：inline-block 绝不用float */
+  .grid-nine li {
+    width: 33.3333333%;
+    display: inline-block;
+
+  }
+  
+  .grid-nine a {
+    display: block;
+    width: 100%;
+  }
+  
+  .grid-nine img {
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+  }
+
+
+
+/* 匡威广告 */
+.kw-advert {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .kw-advert ul {
+    width: 100%;
+    display: flex;
+  }
+  
+  .kw-advert a {
+    width: 100%;
+    display: block;
+  }
+  
+  .kw-advert img {
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+  }
+  
+  .kw-advert li:first-child {
+    flex: 1;
+  }
+  
+  .kw-advert li:first-child a {
+    float: left;
+    width: 50%;
+  }
+  
+  .kw-advert li:last-child {
+    width: 32.9%;
+  }
+
+
+  /* 品牌专区 */
+  .brand-area {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-size: 0;
+  }
+  
+  .brand-area a {
+    display: inline-block;
+    width: 25%;
+  }
+  .brand-area img {
+    width: 100%;
+    vertical-align: middle;
+    height: auto;  
+  }
+  .brand-area a:first-child,.brand-area a:last-child {
+    width: 100%;
+  }
+  
+/* 运动生活专区 */
+.sports-area {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 0;
+    box-sizing: border-box;
+  }
+
+  .item-wrap {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  
+  }
+  
+   .item-wrap:nth-child(odd) {
+    padding-right: 3px;
+  }
+  
+  .item-wrap:nth-child(even) {
+    padding-left: 3px;
+  }
+  
+  .item-wrap  .item {
+     display: block;
+     width: 100%;
+     box-shadow: 0 0 2px rgba(0,0,0,0.5);
+     background-color: #fff;
+     text-align: center;
+  }
+  
+  
+  .item-wrap .item img {
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+  }
+  
+  .item-wrap  .item p {
+    width: 100%;
+    padding:0px 10px;
+    box-sizing: border-box;
+    height: 36px;
+  
+    line-height: 18px;
+    /* 建议不要改 */
+    /* letter-spacing: 1px; */
+  
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    /* 控制文字显示几行出现省略号 */
+    -webkit-line-clamp:2;
+  }
+  
+  .item-wrap  .item .price {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .item-wrap .item  .price .new {
+    color: #ff0000;
+  }
+  
+  .item-wrap .item  .price .old {
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 5px;
+  }
+  
+  .item-wrap .item  button {
+    margin: 10px auto;
+    background-color: #006699;
+    color: #fff;
+    padding:5px;
+  }
+
+
+  /* 女士专区 */
+.women-area {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .women-area-title {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  .women-area-title img {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+
+
+  /* 底部*/
+.lt-toolbar {
+    background-color: #006699;
+  }
+  .lt-toolbar span:first-child {
+    display: block;
+  }
+  
+  .lt-toolbar span:last-child {
+    font-size: 11px;
+  }
+  .lt-toolbar .mui-tab-item {
+      color:#fff;
+  }
+  .lt-toolbar .mui-tab-item.mui-active {
+    color: darkorange;
+  }
+  
